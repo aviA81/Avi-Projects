@@ -11,7 +11,7 @@ public class Battleship {
         InsertShip(3);
         InsertShip(4);
         InsertShip(5);
-        PrintBoard(board);// uncomment to see the ships
+        //PrintBoard(board);// uncomment to see the ships
         PlayGame();
     }
 
