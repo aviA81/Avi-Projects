@@ -1,0 +1,54 @@
+html,
+body {
+    text-align: center;
+    background: rgb(255, 0, 0);
+    background: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgba(252, 255, 0, 1) 50%, rgba(255, 0, 0, 1) 100%);
+    margin-top: 3.9em;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    padding-bottom: 0.5em;
+    border-bottom: 4px double black;
+}
+
+.user {
+    margin: 1.5em;
+    border: 2px solid black;
+    border-radius: 1em;
+    background: rgba(0, 255, 0, 0.4);
+}
+
+.user h3 {
+    margin: 0;
+}
+
+.user .website {
+    font-style: italic;
+    margin: .5em;
+}
+
+.post {
+    background: rgba(255, 0, 255, 0.8);
+    border: 2px dotted black;
+    border-radius: 2em;
+    width: 75%;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.comment {
+    width: 40%;
+    background-color: aqua;
+    border-radius: 1em;
+    margin: auto;
+    border: 2px dashed black;
+    margin-top: .7em;
+    display: flex;
+    gap: 0.8em;
+}
