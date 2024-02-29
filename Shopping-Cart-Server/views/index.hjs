@@ -1,0 +1,30 @@
+<main>
+  <button type="button" class="btn btn-primary mb-2">
+    <a class="nav-link active" href="/cart">My Shopping Cart</a>
+  </button>
+
+  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    {{#items}}
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3">
+          <h4 class="my-0 fw-normal">{{name}}</h4>
+        </div>
+        <div class="card-body">
+          <h2>{{description}}</h2>
+          <img src="{{picture}}" alt="{{name}}" />
+          <h1 class="card-title pricing-card-title">{{price}}</h1>
+          <form method="post">
+            <div class="mb-2">
+              <input type="number" id="quantity" name="quantity" min="1" value="1">
+              <label for="quantity">Quantity</label>
+            </div>
+            <button type="submit" class="w-100 btn btn-lg btn-outline-primary" name="id" value={{id}}>Add to
+              cart</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    {{/items}}
+  </div>
+</main>
