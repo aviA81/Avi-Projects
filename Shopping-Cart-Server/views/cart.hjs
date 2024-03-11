@@ -1,6 +1,6 @@
 <button type="button" class="btn btn-primary mb-2">
-    <a class="nav-link active" href="/">Home</a>
-  </button>
+  <a class="nav-link active" href="/">Home</a>
+</button>
 
 <h2>My Shopping Cart</h2>
 
